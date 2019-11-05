@@ -2,6 +2,10 @@ package appiumTest.TestCase;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+
+import org.junit.Rule;
+import org.junit.rules.TestWatcher;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,6 +15,7 @@ import io.appium.java_client.android.AndroidElement;
 
 public class loginTest extends TestBase {
 
+	
 	@Test
 	public void LoginTest() throws IOException, InterruptedException {
 
@@ -30,5 +35,4 @@ public class loginTest extends TestBase {
 		System.out.println("Either Pop Up is displayed or it is Timed Out");
 		log.debug("Log in successfully executed");
 	}
-
 }

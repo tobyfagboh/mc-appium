@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test"  allow-return-values="true">
     <classes>
-      <class name="appiumTest.base.browser"/>
+      <class name="appiumTest.TestCase.loginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
